@@ -25,7 +25,7 @@ trace1 = gen_trace(adjacency_list=molecule1.adjacency_list, elements=molecule1.e
                    z_coordinates=molecule1.z_coordinates)
 
 trace2 = gen_trace(adjacency_list=molecule2.adjacency_list, elements=molecule2.elements,
-                   x_coordinates=molecule1.x_coordinates, y_coordinates=molecule2.y_coordinates,
+                   x_coordinates=molecule2.x_coordinates, y_coordinates=molecule2.y_coordinates,
                    z_coordinates=molecule2.z_coordinates)
 
 element_labels1 = [dict(text=f'{el} ({num})', x=x, y=y, z=z, showarrow=False, yshift=15)
